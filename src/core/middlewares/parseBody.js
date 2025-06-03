@@ -9,7 +9,6 @@ function parseJsonBody(req, res, next) {
   req.on("data", (chunk) => (data += chunk));
   req.on("end", () => {
     try {
-      console.log("data", data);
       req.body = data ? JSON.parse(data) : {};
       next();
     } catch {

@@ -1,0 +1,5 @@
+"neighborhood","_id","totalReports","pending","overflowing","badOdors","categories","cleanlinessScore","recyclingImpact"
+"copou","copou",3,0,2,0,"[""electronics"",""glass"",""electronics""]","33.3","{""electronics"":10,""glass"":2.5}"
+"Alexandru cel bun","Alexandru cel bun",6,0,2,1,"[""metal"",""organic"",""metal"",""glass"",""glass"",""batteries""]","50.0","{""metal"":6.8,""organic"":4,""glass"":5,""batteries"":1.5}"
+"pacurari","pacurari",6,0,2,1,"[""paper"",""construction"",""textiles"",""metal"",""electronics"",""paper""]","50.0","{""paper"":4.6,""construction"":10,""textiles"":1.2,""metal"":3.4,""electronics"":5}"
+"tatarasi","tatarasi",4,0,1,0,"[""textiles"",""organic"",""organic"",""batteries""]","75.0","{""textiles"":1.2,""organic"":8,""batteries"":1.5}"

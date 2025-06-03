@@ -1,0 +1,565 @@
+{
+	"info": {
+		"_postman_id": "28b4c639-a3b0-4101-909f-02c21010ba4f",
+		"name": "GarbageMonitor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6561230"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Create new user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"ap\",\n    \"password\": \"P@ssw0rd1\",\n    \"email\": \"ap@gmonitor.ro\",\n    \"neighborhood\": \"Dacia\",\n    \"city\": \"Iasi\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/join",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"join"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get user profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user/profile",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get user profile by id (admin)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/user/profile/id/6832f4f564953f51f4f609b2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"profile",
+								"id",
+								"6832f4f564953f51f4f609b2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update profile (self)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"paul@gmonitor.ro\",\n    \"neighborhood\": \"Dancu\",\n    \"city\": \"Iasi\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/profile",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update profile (admin)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"paul@gmonitor.ro\",\n    \"neighborhood\": \"Tatarasi\",\n    \"role\": \"citizen\",\n    \"city\": \"Iasi\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/profile/id/6832f4f564953f51f4f609b2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"profile",
+								"id",
+								"6832f4f564953f51f4f609b2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let responseData = pm.response.json()",
+									"if (responseData?.token) {",
+									"    pm.environment.set(\"access_token\", responseData.token);",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"ap\",\n    \"password\": \"P@ssw0rd1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dumpsters",
+			"item": [
+				{
+					"name": "Get dumpster by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/dumpster/id/683ae63872b45a8fb62333f5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster",
+								"id",
+								"683ae63872b45a8fb62333f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get dumpster by neighborhood Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/dumpster/city/iasi/neighborhood/tatarasi",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster",
+								"city",
+								"iasi",
+								"neighborhood",
+								"tatarasi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find dumpster by address and type",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"dumpsterType\": \"paper\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/dumpster/find",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster",
+								"find"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create dumpster",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"state\": \"Iasi\",\n    \"dumpsterType\": \"household\",\n    \"status\": \"active\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/dumpster",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update dumpster status",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\": \"maintenance\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/dumpster/id/683ae63872b45a8fb62333f5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster",
+								"id",
+								"683ae63872b45a8fb62333f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete dumpster",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/dumpster/id/683ae63872b45a8fb62333f5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"dumpster",
+								"id",
+								"683ae63872b45a8fb62333f5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reports",
+			"item": [
+				{
+					"name": "Get my reports (self)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"category\": \"paper\",\n    \"description\": \"Nu se mai pot arunca gunoaie in tomberon pentru ca este mult prea plin.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get report by Id (self)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"category\": \"paper\",\n    \"description\": \"Nu se mai pot arunca gunoaie in tomberon pentru ca este mult prea plin.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report/id/683c2e6c0ea69bb9032155a9",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report",
+								"id",
+								"683c2e6c0ea69bb9032155a9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get report by userId (admin)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"category\": \"paper\",\n    \"description\": \"Nu se mai pot arunca gunoaie in tomberon pentru ca este mult prea plin.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report/by/user/683c2e6c0ea69bb9032155a9",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report",
+								"by",
+								"user",
+								"683c2e6c0ea69bb9032155a9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get report by neighborhood (AP)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"street\": \"Stejar\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"category\": \"paper\",\n    \"description\": \"Nu se mai pot arunca gunoaie in tomberon pentru ca este mult prea plin.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report/by/city/Iasi/neighborhood/tatarasi",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report",
+								"by",
+								"city",
+								"Iasi",
+								"neighborhood",
+								"tatarasi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Join a report by id (AP)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/report/join/id/683c2e6c0ea69bb9032155a9",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report",
+								"join",
+								"id",
+								"683c2e6c0ea69bb9032155a9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new report",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"street\": \"Stejar3\",\n    \"neighborhood\": \"Tatarasi\",\n    \"city\": \"Iasi\",\n    \"category\": \"paper\",\n    \"issue\": \"other\",\n    \"description\": \"Vai de mortii lui\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Finallize report by id (AP)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"status\": \"rejected\",\n    \"details\": \"Not justifed.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/report/id/683c2e6c0ea69bb9032155a9",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"report",
+								"id",
+								"683c2e6c0ea69bb9032155a9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{access_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

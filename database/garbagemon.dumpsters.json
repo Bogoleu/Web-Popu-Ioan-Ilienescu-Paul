@@ -1,0 +1,5805 @@
+[{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847dd"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dorobanti",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847de"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dorobanti",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847df"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dorobanti",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e0"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dorobanti",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e1"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dorobanti",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e2"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trompeta",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e3"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trompeta",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e4"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trompeta",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e5"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fulger",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e6"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fulger",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e7"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fulger",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e8"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Verdes",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847e9"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Verdes",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ea"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Verdes",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847eb"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Verdes",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ec"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Verdes",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ed"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ee"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ef"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f0"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f1"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f2"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Deliu",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f3"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Deliu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f4"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Deliu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f5"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ciric",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f6"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ciric",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f7"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ciric",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f8"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ciric",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847f9"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847fa"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847fb"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847fc"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847fd"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fantanilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847fe"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fantanilor",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25847ff"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fantanilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584800"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fantanilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584801"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Fantanilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584802"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Fantanilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584803"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Fantanilor",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584804"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Fantanilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584805"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Ciobanului",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584806"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Ciobanului",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584807"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Ciobanului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584808"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Ciobanului",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584809"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Trecatoarea Ciobanului",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480a"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Holboca",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480b"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Holboca",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480c"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Holboca",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480d"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Holboca",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480e"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Holboca",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258480f"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Motilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584810"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Motilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584811"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Motilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584812"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Motilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584813"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Motilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584814"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Marginei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584815"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Marginei",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584816"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Marginei",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584817"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Mistretului",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584818"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Mistretului",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584819"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Mistretului",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481a"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ceahlau",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481b"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ceahlau",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481c"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ceahlau",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481d"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ceahlau",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481e"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ceahlau",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258481f"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nisipari",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584820"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nisipari",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584821"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nisipari",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584822"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nisipari",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584823"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nisipari",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584824"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Vulturilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584825"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Vulturilor",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584826"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Vulturilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584827"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Vulturilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584828"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Vulturilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584829"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Porumbului",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482a"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Porumbului",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482b"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Porumbului",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482c"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Lt.Ghe.Caranda",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482d"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Lt.Ghe.Caranda",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482e"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Lt.Ghe.Caranda",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258482f"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Lt.Ghe.Caranda",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584830"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Lt.Ghe.Caranda",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584831"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Obreja",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584832"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Obreja",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584833"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Obreja",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584834"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Obreja",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584835"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Obreja",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584836"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Zborului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584837"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Zborului",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584838"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Zborului",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584839"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Zborului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483a"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Capitan Protopopescu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483b"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Capitan Protopopescu",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483c"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Capitan Protopopescu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483d"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Capitan Protopopescu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483e"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Capitan Protopopescu",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258483f"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aeroportului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584840"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aeroportului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584841"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aeroportului",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584842"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aeroportului",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584843"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aeroportului",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584844"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584845"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584846"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584847"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Stejar",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584848"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584849"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484a"
+  },
+  "neighborhood": "tatarasi",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Creanga",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aleea M.Sadoveanu",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aleea M.Sadoveanu",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aleea M.Sadoveanu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484e"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Aleea M.Sadoveanu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258484f"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ursulea",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584850"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ursulea",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584851"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ursulea",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584852"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ursulea",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584853"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ursulea",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584854"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Viticultori",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584855"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Viticultori",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584856"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Viticultori",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584857"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Baltagului",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584858"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Baltagului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584859"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Baltagului",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485a"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Baltagului",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Flammarion",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Flammarion",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Flammarion",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485e"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Flammarion",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258485f"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Cosbuc",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584860"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Cosbuc",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584861"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Cosbuc",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584862"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frederich",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584863"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frederich",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584864"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frederich",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584865"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frederich",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584866"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frederich",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584867"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagului",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584868"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584869"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagului",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486a"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podgoriilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podgoriilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podgoriilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Prof.A.Ciolan",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486e"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Prof.A.Ciolan",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258486f"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Prof.A.Ciolan",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584870"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Prof.A.Ciolan",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584871"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Prof.A.Ciolan",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584872"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Pancu",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584873"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Pancu",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584874"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Pancu",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584875"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Pancu",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584876"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Pancu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584877"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Raianu",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584878"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Raianu",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584879"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Raianu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487a"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "O.Raianu",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dealul Zorilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dealul Zorilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dealul Zorilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487e"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Slavici",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258487f"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Slavici",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584880"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Slavici",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584881"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Calinescu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584882"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Calinescu",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584883"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Calinescu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584884"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "G.Calinescu",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584885"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "T.Vianu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584886"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "T.Vianu",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584887"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "T.Vianu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584888"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "T.Vianu",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584889"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "T.Vianu",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488a"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dr.Vicol",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dr.Vicol",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dr.Vicol",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dr.Vicol",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488e"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Th.Vascauteanu",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258488f"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Th.Vascauteanu",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584890"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Th.Vascauteanu",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584891"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Turcu",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584892"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Turcu",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584893"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Turcu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584894"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Turcu",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584895"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Turcu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584896"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Pojarniciei",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584897"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Pojarniciei",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584898"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Pojarniciei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584899"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Pojarniciei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489a"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Toma Cozma",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489b"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Toma Cozma",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489c"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Toma Cozma",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489d"
+  },
+  "neighborhood": "copou",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Toma Cozma",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489e"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Anastasie Fatu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258489f"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Anastasie Fatu",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Anastasie Fatu",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Anastasie Fatu",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848a9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848aa"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Florilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ab"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cimitirul Evreiesc",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ac"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cimitirul Evreiesc",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ad"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cimitirul Evreiesc",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ae"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Elizabeta Rizea",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848af"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Elizabeta Rizea",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Elizabeta Rizea",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Elizabeta Rizea",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Elizabeta Rizea",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Iancu Flondor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Iancu Flondor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Iancu Flondor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Iancu Flondor",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Nistor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Nistor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848b9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Nistor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ba"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Nistor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848bb"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Eudoxiu Hurmuzaki",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848bc"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Eudoxiu Hurmuzaki",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848bd"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Eudoxiu Hurmuzaki",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848be"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Eudoxiu Hurmuzaki",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848bf"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nicolae Oblu",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nicolae Oblu",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Nicolae Oblu",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Popauti",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Popauti",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Popauti",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Popauti",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cazarmilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cazarmilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cazarmilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848c9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cazarmilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ca"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Semanatorului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848cb"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Semanatorului",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848cc"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Semanatorului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848cd"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Semanatorului",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ce"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Roata",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848cf"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Roata",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Roata",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Roata",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ion Roata",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ogorului",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ogorului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ogorului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Sos. Munteni",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Sos. Munteni",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Sos. Munteni",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848d9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Sos. Munteni",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848da"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Sos. Munteni",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848db"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Busuioc",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848dc"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Busuioc",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848dd"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Busuioc",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848de"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Busuioc",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848df"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Busuioc",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Rovine",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Rovine",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Rovine",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Rovine",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Casin",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Casin",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Casin",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Casin",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calugareni",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848e9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calugareni",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ea"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calugareni",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848eb"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calafat",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ec"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calafat",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ed"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calafat",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ee"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calafat",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ef"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Calafat",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f0"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Namoloasa",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f1"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Namoloasa",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f2"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Namoloasa",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f3"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Namoloasa",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f4"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Namoloasa",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f5"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bucovinei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f6"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bucovinei",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f7"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bucovinei",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f8"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bucovinei",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848f9"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fnd. Bucovinei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848fa"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fnd. Bucovinei",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848fb"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fnd. Bucovinei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848fc"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podul Inalt",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848fd"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podul Inalt",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848fe"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Podul Inalt",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a25848ff"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Olteniei",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584900"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Olteniei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584901"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Olteniei",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584902"
+  },
+  "neighborhood": "pacurari",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Olteniei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584903"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Str.Urcusului",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584904"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Str.Urcusului",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584905"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Str.Urcusului",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584906"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Str.Urcusului",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584907"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagetului",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584908"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagetului",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584909"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagetului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagetului",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagetului",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Roadelor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Roadelor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Roadelor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258490f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Szabo",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584910"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Szabo",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584911"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Szabo",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584912"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Szabo",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584913"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galbeni",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584914"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galbeni",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584915"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galbeni",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584916"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galbeni",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584917"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frunzei",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584918"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frunzei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584919"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Frunzei",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Alunis",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Alunis",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Alunis",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Alunis",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Alunis",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258491f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bradetului",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584920"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bradetului",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584921"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Bradetului",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584922"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Caramidari",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584923"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Caramidari",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584924"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Caramidari",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584925"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584926"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584927"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fagilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584928"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fluturilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584929"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fluturilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Fluturilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galata",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galata",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Galata",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Hatman Sendrea",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258492f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Hatman Sendrea",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584930"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Hatman Sendrea",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584931"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "V.Ureche",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584932"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "V.Ureche",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584933"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "V.Ureche",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584934"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "V.Ureche",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584935"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "V.Ureche",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584936"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584937"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584938"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584939"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Salciilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Arh.Ioan Berindei",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258493f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Arh.Ioan Berindei",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584940"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Arh.Ioan Berindei",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584941"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Berindei",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584942"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Berindei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584943"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Ioan Berindei",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584944"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584945"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584946"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584947"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584948"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Cicoarei",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584949"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Cicoarei",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Cicoarei",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Cicoarei",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "plastic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Cicoarei",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258494f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584950"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584951"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584952"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584953"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "metal",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584954"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Poienilor",
+  "dumpsterType": "household",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584955"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Poienilor",
+  "dumpsterType": "paper",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584956"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Poienilor",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584957"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Poienilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584958"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "la Poienilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a2584959"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495a"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "electronics",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495b"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "organic",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495c"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Poienilor",
+  "dumpsterType": "batteries",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495d"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dallas",
+  "dumpsterType": "textiles",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495e"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dallas",
+  "dumpsterType": "glass",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c5f2fcbcaac70a258495f"
+  },
+  "neighborhood": "Alexandru cel bun",
+  "city": "iasi",
+  "state": "iasi",
+  "street": "Dallas",
+  "dumpsterType": "construction",
+  "status": "active",
+  "lastUpdated": {
+    "$date": "2025-06-01T14:09:51.698Z"
+  },
+  "__v": 0
+}]

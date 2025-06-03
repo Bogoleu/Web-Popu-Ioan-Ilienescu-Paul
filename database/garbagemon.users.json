@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "6832f4f564953f51f4f609b2"
+  },
+  "username": "paulica",
+  "password": "$2b$10$Hps2FPoyLll0lOMYQITfuu97XTnEG4/NI0HnOw1hKzKWvPbn78Y1i",
+  "email": "paul@gmonitor.ro",
+  "role": "citizen",
+  "neighborhood": "dancu",
+  "city": "iasi",
+  "createdAt": {
+    "$date": "2025-05-25T10:46:13.347Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-31T11:04:46.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833097087277caa331236d5"
+  },
+  "username": "admin",
+  "password": "$2b$10$OCWgugTNWpuyXbNIzLNzPOAwkBE8qPSqevUiXwqYpnsYg0JxcOTM2",
+  "email": "admin@gmonitor.ro",
+  "role": "admin",
+  "neighborhood": "titan",
+  "city": "bucuresti",
+  "createdAt": {
+    "$date": "2025-05-25T12:13:36.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-25T12:13:36.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c3c18af8b8a5af29bf9d6"
+  },
+  "username": "ap",
+  "password": "$2b$10$3gb98/1DsV/GvrrBAe4bcOOQPXVEkguynVfTMbHQj8Ok4nHT2ZUUC",
+  "email": "ap@gmonitor.ro",
+  "role": "authorized_personnel",
+  "neighborhood": "dacia",
+  "city": "iasi",
+  "createdAt": {
+    "$date": "2025-06-01T11:40:08.197Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T11:40:08.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c65a6ec3ea3a3e6e29627"
+  },
+  "username": "george",
+  "password": "$2b$10$7yrDVVyVEh1LUxYUudZLc.WspVOjFQzccMEEDE9P6BBBZ9JYE8Etm",
+  "email": "george@gmonitor.ro",
+  "role": "citizen",
+  "neighborhood": "dacia",
+  "city": "iasi",
+  "createdAt": {
+    "$date": "2025-06-01T14:37:26.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T14:37:26.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c65afec3ea3a3e6e2962b"
+  },
+  "username": "gigi",
+  "password": "$2b$10$Rmazkd4GTcYQbwa3a5g8ROm2qGx6S/yvoSqG89xuFxN2gAM.MYpwu",
+  "email": "gigi@gmonitor.ro",
+  "role": "citizen",
+  "neighborhood": "dacia",
+  "city": "iasi",
+  "createdAt": {
+    "$date": "2025-06-01T14:37:35.352Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T14:37:35.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683c65c0ec3ea3a3e6e2962f"
+  },
+  "username": "albert",
+  "password": "$2b$10$MhUoSMy8aSAAHkjZ46mckusOrAWvDPr8s5a95cRvXmWAlaLA9Jz2u",
+  "email": "albert@gmonitor.ro",
+  "role": "citizen",
+  "neighborhood": "dacia",
+  "city": "iasi",
+  "createdAt": {
+    "$date": "2025-06-01T14:37:52.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T14:37:52.765Z"
+  },
+  "__v": 0
+}]

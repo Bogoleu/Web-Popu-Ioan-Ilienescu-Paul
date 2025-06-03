@@ -1,25 +1,45 @@
+const mongoose = require('mongoose');
+
 const { Server } = require("./core/server");
+const parseConfig = require("./utils/config");
 const parseJsonBody = require("./core/middlewares/parseBody");
-const sendJson = require("./core/sendJson");
 
 const authModule = require("./modules/auth/auth.routes");
+const userModule = require('./modules/users/users.routes');
+const dumpsterModule  = require('./modules/dumpster/dumpster.routes');
+const reportModule  = require('./modules/report/report.routes');
 
-const server = new Server();
-server.use(parseJsonBody);
+const runReports = require('./utils/generateReport');
 
-// Dependency injection for modules
-authModule(server);
+async function main() {
+  const config = await parseConfig("./config/dev.json");
+  const db = await mongoose.connect(config.database.uri, {
+    tlsInsecure: true,
+  })
 
-// some example routes
-// server.registerRoute("GET", "/hello", (req, res) => {
-//   sendJson(res, 200, { message: "Hello, world!" });
-// });
-// server.registerRoute("POST", "/echo", async (req, res) => {
-//   const body = req.body;
-//   sendJson(res, 200, { received: body });
-// });
-// server.registerRoute("GET", "/users/:id/test1/:test1", (req, res) => {
-//   sendJson(res, 200, { userId: req.params.id, test1: req.params.test1 });
-// });
+  if (!db) {
+    throw new Error("Failed to connect to the database")
+  }
 
-server.start(3000);
+  
+  const server = new Server();
+  server.use(parseJsonBody);
+  server.use((req, _, next) => {
+    req.config = config;
+    next()
+  })
+  
+  // Dependency injection for modules
+  authModule(server);
+  userModule(server);
+  dumpsterModule(server);
+  reportModule(server);
+
+  // await runReports()
+  server.start(3000);
+}
+
+// go to async all the way
+main()
+
+
