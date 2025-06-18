@@ -22,7 +22,7 @@ async function main() {
   if (!db) {
     throw new Error("Failed to connect to the database");
   }
-  console.log("✅ Connected to MongoDB");
+  console.log("Connected to MongoDB");
 
   const server = new Server();
 
@@ -66,7 +66,6 @@ async function main() {
   dumpsterModule(server);
   reportModule(server);
 
-  // await runReports()
   server.start(3000);
 }
 
