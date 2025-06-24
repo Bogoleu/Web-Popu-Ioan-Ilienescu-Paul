@@ -1,7 +1,8 @@
 const sendJson = require("../../core/sendJson");
 const { checkAuth } = require("../../utils/checkAuth");
 const {
-    checkUserLogin
+    checkUserLogin,
+    logoutUser
 } = require("./auth.service");
 const { createUser } = require("../users/users.service");
 
@@ -39,12 +40,16 @@ const authLoginUser = async (req, res) => {
       return;
     }
 
-    const token = await checkUserLogin(config, username, password);
-    if (!token) {
+    const result = await checkUserLogin(config, username, password);
+    if (!result) {
       sendJson(res, 401, { message: "Invalid username or password" });
       return;
     }
-    sendJson(res, 200, { message: "Login successful", token });
+    sendJson(res, 200, { 
+      message: "Login successful", 
+      token: result.token, 
+      user: result.user 
+    });
     
   } catch (error) {
     sendJson(res, 500, { message: "Internal server error", error: error.message });
@@ -52,7 +57,38 @@ const authLoginUser = async (req, res) => {
   }
 };
 
+const authLogoutUser = async (req, res) => {
+  try {
+    const token = req.headers.authorization?.replace('Bearer ', '');
+    
+    if (!token) {
+      sendJson(res, 400, { message: "No token provided" });
+      return;
+    }
+
+    // verify token is valid before logout
+    const jwt = require("jsonwebtoken");
+    const config = req.config;
+    
+    try {
+      jwt.verify(token, config.auth.secret);
+    } catch (error) {
+      sendJson(res, 401, { message: "Invalid token" });
+      return;
+    }
+
+    // call logout service (for future token blacklisting)
+    await logoutUser(token);
+    
+    sendJson(res, 200, { message: "Logout successful" });
+    
+  } catch (error) {
+    sendJson(res, 500, { message: "Internal server error", error: error.message });
+  }
+};
+
 module.exports = {
     authLoginUser,
     authRegisterUser,
+    authLogoutUser,
 };

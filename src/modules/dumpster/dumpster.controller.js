@@ -80,6 +80,7 @@ const getDumpsterById = async (req, res) => {
     sendJson(res, 500, {
       message: "Internal server error",
       error: error.message,
+
     });
     return;
   }

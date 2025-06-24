@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile - Your Reports</title>
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+</head>
+<body>
+
+<a href="/" class="logo-top-left">
+    <img src="../logo.png" alt="Garbage Monitor Logo" />
+</a>
+
+<div class="sidebar">
+    <nav>
+        <a href="../pages/dashboard.html">Dashboard</a>
+        <a href="../pages/dumpsters.html">Dumpsters</a>
+        <a href="../pages/profile.html" class="active">Profile</a>
+        <a href="../pages/report.html">Report</a>
+        <a href="../pages/contact.html">Contact</a>
+    </nav>
+    <button class="logout-btn" id="logoutBtn">Logout</button>
+</div>
+
+<div class="main-content">
+    <h1>Your Reports</h1>
+    <table border="1" style="width:100%; border-collapse: collapse;">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Issue</th>
+            <th>Status</th>
+            <th>Created At</th>
+        </tr>
+        </thead>
+        <tbody id="reports-list">
+        </tbody>
+    </table>
+    <p id="no-reports-msg" style="display:none;">You have no reports yet.</p>
+</div>
+
+<script src="../scripts/profile.js"></script>
+
+</body>
+</html>
