@@ -18,7 +18,7 @@ const reportsSchema = new Schema({
     },
     issue: {
         type: String,
-        enum: ["overflowing", "illegal_materials", "bad_odors", "safety_harzards", "vandalized", "other"],
+        enum: ["overflowing", "illegal_materials", "bad_odors", "safety_hazards", "vandalized", "other"],
         required: true,
     },
     description: {

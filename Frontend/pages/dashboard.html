@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../styles/dashboard.css" />
+</head>
+<body>
+
+<a href="/" class="logo-top-left">
+  <img src="../logo.png" alt="Garbage Monitor Logo" />
+</a>
+
+<div class="sidebar">
+  <nav>
+    <a href="../pages/dashboard.html" class="active">Dashboard</a>
+    <a href="../pages/dumpsters.html">Dumpsters</a>
+    <a href="../pages/profile.html">Profile</a>
+    <a href="../pages/report.html">Report</a>
+    <a href="../pages/contact.html">Contact</a>
+  </nav>
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<div class="main-content">
+  <div class="welcome-box">
+    <h1>Welcome, <span id="username"></span>!</h1>
+    <p id="role-description">Track waste management efficiently and help make our environment cleaner and greener.</p>
+  </div>
+
+  <!-- loading indicator -->
+  <div id="loading" class="loading-indicator">
+    <p>Loading dashboard data...</p>
+  </div>
+
+  <!-- dashboard content -->
+  <div id="dashboard-content" class="dashboard-grid" style="display: none;">
+    
+    <!-- citizen view -->
+    <div id="citizen-section" class="role-section" style="display: none;">
+      <div class="stats-card">
+        <h3>Your Reports Status</h3>
+        <div class="report-stats">
+          <div class="stat-item">
+            <span class="stat-number" id="user-pending">0</span>
+            <span class="stat-label">Pending</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" id="user-resolved">0</span>
+            <span class="stat-label">Resolved</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Your Neighborhood Status</h3>
+        <canvas id="citizen-chart"></canvas>
+      </div>
+
+      <div class="recent-reports-card">
+        <h3>Your Recent Reports</h3>
+        <div id="citizen-reports" class="reports-list"></div>
+      </div>
+    </div>
+
+    <!-- authorized personnel view -->
+    <div id="personnel-section" class="role-section" style="display: none;">
+      <div class="stats-grid">
+        <div class="stats-card">
+          <h3>Pending Tasks</h3>
+          <div class="big-number" id="pending-tasks">0</div>
+        </div>
+        <div class="stats-card">
+          <h3>In Progress</h3>
+          <div class="big-number" id="progress-tasks">0</div>
+        </div>
+        <div class="stats-card">
+          <h3>Completed Today</h3>
+          <div class="big-number" id="completed-tasks">0</div>
+        </div>
+      </div>
+
+      <div class="chart-card wide">
+        <h3>Weekly Activity Trend</h3>
+        <canvas id="personnel-trend-chart"></canvas>
+      </div>
+
+      <div class="task-list-card">
+        <h3>Priority Tasks</h3>
+        <div id="personnel-tasks" class="tasks-list"></div>
+      </div>
+    </div>
+
+    <!-- decision maker view -->
+    <div id="decision-section" class="role-section" style="display: none;">
+      <div class="overview-stats">
+        <div class="stats-card">
+          <h3>Total Reports</h3>
+          <div class="big-number" id="total-reports">0</div>
+        </div>
+        <div class="stats-card">
+          <h3>Active Users</h3>
+          <div class="big-number" id="active-users">0</div>
+        </div>
+        <div class="stats-card">
+          <h3>Efficiency Rate</h3>
+          <div class="big-number" id="efficiency-rate">0%</div>
+        </div>
+      </div>
+
+      <div class="charts-row">
+        <div class="chart-card">
+          <h3>Neighborhood Rankings</h3>
+          <canvas id="neighborhood-chart"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Category Distribution</h3>
+          <canvas id="category-chart"></canvas>
+        </div>
+      </div>
+
+      <div class="comparison-card">
+        <h3>Neighborhood Comparison</h3>
+        <div class="comparison-controls">
+          <button id="toggle-comparison" class="btn-secondary">Show Detailed Comparison</button>
+        </div>
+        <div id="comparison-content" class="comparison-grid" style="display: none;">
+          <canvas id="comparison-chart"></canvas>
+        </div>
+      </div>
+
+      <div class="rankings-card">
+        <h3>Cleanliness Rankings</h3>
+        <div id="rankings-list" class="rankings"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../scripts/dashboard.js"></script>
+</body>
+</html>

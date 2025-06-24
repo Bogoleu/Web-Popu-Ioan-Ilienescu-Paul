@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garbage Monitor - Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<a href="/" class="logo-top-left">
+  <img src="logo.png" alt="Garbage Monitor Logo" />
+</a>
+
+<div class="landing-background">
+  <div class="landing-box">
+    <h1>Create an Account</h1>
+    <form id="registerForm">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required />
+
+      <label for="neighborhood">Neighborhood</label>
+      <input type="text" id="neighborhood" name="neighborhood" required />
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required />
+
+      <button type="submit">Register</button>
+    </form>
+    <p class="small-text">
+      Already have an account? <a href="/login.html">Sign in here</a>
+    </p>
+  </div>
+  <p class="background-info">
+    Join Garbage Monitor and help make your city cleaner and greener.
+  </p>
+</div>
+
+<script>
+  document.getElementById("registerForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const username = document.getElementById("username").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
+    const neighborhood = document.getElementById("neighborhood").value;
+    const city = document.getElementById("city").value;
+
+    if (password !== confirmPassword) {
+      alert("Passwords do not match.");
+      return;
+    }
+
+    try {
+      const res = await fetch("/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username,
+          email,
+          password,
+          neighborhood,
+          city,
+        }),
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        alert("Account created! Redirecting to login.");
+        window.location.href = "/login.html";
+      } else {
+        alert("Registration failed: " + (data.message || data.error || "Unknown error"));
+      }
+    } catch (err) {
+      alert("Something went wrong: " + err.message);
+    }
+  });
+</script>
+
+</body>
+</html>

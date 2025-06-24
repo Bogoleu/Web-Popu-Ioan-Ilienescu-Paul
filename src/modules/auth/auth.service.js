@@ -25,12 +25,32 @@ const checkUserLogin = async (config, username, password) => {
         expiresIn: '6h',
     });
 
+    // return both token and user data
+    const userData = {
+        _id: user._id,
+        username: user.username,
+        email: user.email,
+        role: user.role,
+        neighborhood: user.neighborhood,
+        city: user.city
+    };
 
-    return token;
+    return { token, user: userData };
 }
 
 const logoutUser = async (token) => {
-
+    // For now, we just log the logout
+    // In a production environment, you might want to:
+    // 1. Add token to a blacklist in Redis/Database
+    // 2. Set token expiration immediately
+    // 3. Log the logout event for security auditing
+    
+    console.log('User logged out successfully');
+    
+    // Future implementation could include:
+    // await TokenBlacklist.create({ token, createdAt: new Date() });
+    
+    return { success: true };
 }
 
 module.exports = {

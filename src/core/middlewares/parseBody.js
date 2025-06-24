@@ -1,7 +1,17 @@
 function parseJsonBody(req, res, next) {
-  if (!["POST", "PUT", "PATCH"].includes(req.method)) return next();
+  // skip body parsing for GET, DELETE, HEAD requests
+  if (!["POST", "PUT", "PATCH"].includes(req.method)) {
+    return next();
+  }
 
-  if (req.headers["content-type"] !== "application/json") {
+  // if no content-type header, assume no body
+  if (!req.headers["content-type"]) {
+    req.body = {};
+    return next();
+  }
+
+  // check for json content type
+  if (!req.headers["content-type"].includes("application/json")) {
     return next(new Error("Content-Type must be application/json"));
   }
   

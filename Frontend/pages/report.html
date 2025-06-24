@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Report Management</title>
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+    <link rel="stylesheet" href="../styles/report.css" />
+    <style>
+        .hidden { display: none; }
+        .btn {
+            background: #56ab2f;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 2px;
+        }
+        .btn:hover {
+            background: #4a9632;
+        }
+        .btn-secondary {
+            background: #6c757d;
+        }
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        .download-section {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #56ab2f;
+        }
+        .download-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .search-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .search-inputs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        #reports-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        #reports-table th,
+        #reports-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        #reports-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        #reports-table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+        #report-details {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border-left: 4px solid #56ab2f;
+        }
+        .update-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        #update-result {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="logo-top-left">
+    <img src="../logo.png" alt="Logo" />
+</div>
+
+<div class="sidebar">
+    <nav>
+        <a href="../pages/dashboard.html">Dashboard</a>
+        <a href="../pages/dumpsters.html">Dumpsters</a>
+        <a href="../pages/profile.html">Profile</a>
+        <a href="../pages/report.html" class="active">Report</a>
+        <a href="../pages/contact.html">Contact</a>
+    </nav>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<div class="main-content">
+    <h1>Report Management System</h1>
+
+    <!-- Create Report Form -->
+    <section id="create-report-form" class="hidden">
+        <h2>Create New Report</h2>
+        <form class="report-form">
+            <div class="form-group">
+                <label for="report-street">Street Address</label>
+                <input id="report-street" type="text" placeholder="Enter street address" required />
+            </div>
+            <div class="form-group">
+                <label for="report-neighborhood">Neighborhood</label>
+                <input id="report-neighborhood" type="text" placeholder="Enter neighborhood" required />
+            </div>
+            <div class="form-group">
+                <label for="report-city">City</label>
+                <input id="report-city" type="text" placeholder="Enter city" required />
+            </div>
+            <div class="form-group">
+                <label for="report-category">Waste Category</label>
+                <select id="report-category" required>
+                    <option value="">-- Select Category --</option>
+                    <option value="household">Household</option>
+                    <option value="paper">Paper</option>
+                    <option value="plastic">Plastic</option>
+                    <option value="glass">Glass</option>
+                    <option value="metal">Metal</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="batteries">Batteries</option>
+                    <option value="organic">Organic</option>
+                    <option value="textiles">Textiles</option>
+                    <option value="construction">Construction</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="report-issue">Issue Type</label>
+                <select id="report-issue" required>
+                    <option value="">-- Select Issue --</option>
+                    <option value="overflowing">Overflowing</option>
+                    <option value="illegal_materials">Illegal Materials</option>
+                    <option value="bad_odors">Bad Odors</option>
+                    <option value="safety_hazards">Safety Hazards</option>
+                    <option value="vandalized">Vandalized</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="report-description">Description</label>
+                <textarea id="report-description" rows="4" placeholder="Provide detailed description of the issue..."></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Report</button>
+        </form>
+    </section>
+
+    <!-- Search Reports Section -->
+    <section id="search-reports-section" class="hidden">
+        <div class="search-section">
+            <h2>Search Reports</h2>
+            <div class="search-inputs">
+                <div class="form-group">
+                    <label for="search-city">City</label>
+                    <input id="search-city" type="text" placeholder="Enter city name" />
+                </div>
+                <div class="form-group">
+                    <label for="search-neighborhood">Neighborhood</label>
+                    <input id="search-neighborhood" type="text" placeholder="Enter neighborhood" />
+                </div>
+            </div>
+            <button id="btn-search-reports" class="btn">Search by Location</button>
+            
+            <hr style="margin: 20px 0;">
+            
+            <div class="search-inputs">
+                <div class="form-group">
+                    <label for="search-report-id">Report ID</label>
+                    <input id="search-report-id" type="text" placeholder="Enter report ID" />
+                </div>
+            </div>
+            <button id="btn-search-report-id" class="btn btn-secondary">Search by ID</button>
+        </div>
+
+        <div class="table-container">
+            <table id="reports-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Street</th>
+                        <th>Neighborhood</th>
+                        <th>City</th>
+                        <th>Category</th>
+                        <th>Issue</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div id="report-details"></div>
+    </section>
+
+    <!-- Update Report Section -->
+    <section id="update-report-section" class="hidden">
+        <div class="update-section">
+            <h2>Update Report Status</h2>
+            <form id="update-report-form">
+                <div class="form-group">
+                    <label for="update-report-id">Report ID</label>
+                    <input id="update-report-id" type="text" placeholder="Report ID will be auto-filled" readonly />
+                </div>
+                <div class="form-group">
+                    <label for="update-report-status">New Status</label>
+                    <select id="update-report-status" required>
+                        <option value="">-- Select Status --</option>
+                        <option value="resolved">Resolved</option>
+                        <option value="rejected">Rejected</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="update-report-resolution">Resolution Details</label>
+                    <textarea id="update-report-resolution" rows="3" placeholder="Describe how the issue was resolved or why it was rejected..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Update Report</button>
+            </form>
+            <div id="update-result"></div>
+        </div>
+    </section>
+
+</div>
+
+<script src="../scripts/report.js" defer></script>
+
+</body>
+</html>

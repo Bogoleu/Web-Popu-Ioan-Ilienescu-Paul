@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search Dumpster</title>
+  <link rel="stylesheet" href="../styles/dashboard.css" />
+  <link rel="stylesheet" href="../styles/dumpsters.css" />
+</head>
+<body>
+
+<div class="logo-top-left">
+  <img src="../logo.png" alt="Logo" />
+</div>
+
+<div class="sidebar">
+  <nav>
+    <a href="../pages/dashboard.html">Dashboard</a>
+    <a href="../pages/dumpsters.html" class="active">Dumpsters</a>
+    <a href="../pages/profile.html">Profile</a>
+    <a href="../pages/report.html">Report</a>
+    <a href="../pages/contact.html">Contact</a>
+  </nav>
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<div class="main-content">
+
+  <div class="left-column">
+    <h1>Search Dumpster</h1>
+
+    <div class="search-bar">
+      <label for="search-criteria">Search Criteria:</label>
+      <select id="search-criteria">
+        <option value="id">ID</option>
+        <option value="address">Address + Type</option>
+        <option value="neighborhood">Neighborhood</option>
+      </select>
+
+      <div id="dynamic-fields"></div>
+
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="dumpsters-container"></div>
+  </div>
+
+</div>
+
+<script src="../scripts/dumpsters.js"></script>
+</body>
+</html>

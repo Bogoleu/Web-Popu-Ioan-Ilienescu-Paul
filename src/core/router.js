@@ -3,10 +3,10 @@ class Router {
     this.routes = [];
   }
 
-  register(method, path, handler) {
+  register(method, path, handler, middlewares = []) {
     const segments = path.split("/").filter(Boolean);
     const keys = segments.map((s) => (s.startsWith(":") ? s.slice(1) : null));
-    this.routes.push({ method, segments, keys, handler });
+    this.routes.push({ method, segments, keys, handler, middlewares });
   }
 
   match(method, pathname) {
@@ -28,7 +28,11 @@ class Router {
         }
       }
 
-      if (matched) return { handler: route.handler, params };
+      if (matched) return { 
+        handler: route.handler, 
+        params, 
+        middlewares: route.middlewares 
+      };
     }
 
     return null;

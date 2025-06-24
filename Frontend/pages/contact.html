@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="../styles/dashboard.css" />
+</head>
+<body>
+
+<a href="/" class="logo-top-left">
+  <img src="../logo.png" alt="Garbage Monitor Logo" />
+</a>
+
+<div class="sidebar">
+  <nav>
+    <a href="../pages/dashboard.html">Dashboard</a>
+    <a href="../pages/dumpsters.html">Dumpsters</a>
+    <a href="../pages/profile.html">Profile</a>
+    <a href="../pages/report.html">Report</a>
+    <a href="../pages/contact.html" class="active">Contact</a>
+  </nav>
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<div class="main-content">
+  <h1>Contact Us</h1>
+  <p>
+    If you have any questions, feedback, or issues, feel free to reach out to us.
+    We are here to help you keep your community clean and green!
+  </p>
+  <p>
+    <strong>Email:</strong> <a href="mailto:contact.gbmonitor@gmail.com?subject=Contact%20via%20Garbage%20Monitor%20Website&body=Buna,%0D%0A%0D%0AVreau%20sa%20va%20intreb%20despre...%0D%0A%0D%0AMultumesc!">contact.gbmonitor@gmail.com</a>
+  </p>
+</div>
+
+<script>
+  function logout() {
+    if (confirm("Esti sigur ca vrei sa te deconectezi?")) {
+      // get token before clearing storage
+      const token = localStorage.getItem("authToken");
+      
+      // clear all auth data
+      localStorage.removeItem("authToken");
+      localStorage.removeItem("loggedUser");
+      
+      // call logout endpoint to invalidate token on server
+      if (token) {
+        fetch("/auth/logout", {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${token}`
+          }
+        }).catch(err => console.log("Logout request failed:", err));
+      }
+      
+      // redirect to login page
+      window.location.href = "../pages/login.html";
+    }
+  }
+</script>
+
+</body>
+</html>

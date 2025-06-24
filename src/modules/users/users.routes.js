@@ -6,12 +6,26 @@ const {
     putAdminUserProfile,
 } = require("./users.controller");
 
+const {
+    requireAuthenticated,
+    requireAdmin
+} = require('../../core/middlewares/authMiddleware');
+
 const userRoutes = (srv) => {
-    srv.registerRoute("POST", "/user/join", createNewUser);
-    srv.registerRoute("GET", "/user/profile", getUserProfile);
-    srv.registerRoute("GET", "/user/profile/id/:id", getUserProfileById);
-    srv.registerRoute("PUT", "/user/profile", putSelfUserProfile);
-    srv.registerRoute("PUT", "/user/profile/id/:id", putAdminUserProfile);
+    // admin only - create new user
+    srv.registerRoute("POST", "/user", requireAdmin, createNewUser);
+    
+    // authenticated users can view their own profile
+    srv.registerRoute("GET", "/user/profile", requireAuthenticated, getUserProfile);
+    
+    // admin only - view any user profile by id
+    srv.registerRoute("GET", "/user/profile/id/:id", requireAdmin, getUserProfileById);
+    
+    // authenticated users can update their own profile
+    srv.registerRoute("PUT", "/user/profile", requireAuthenticated, putSelfUserProfile);
+    
+    // admin only - update any user profile by id
+    srv.registerRoute("PUT", "/user/profile/id/:id", requireAdmin, putAdminUserProfile);
 }
 
 module.exports = userRoutes;
